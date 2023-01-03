@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 :root {
+  --main-color: #2196f3;
   --main-color-alt: #1787e0;
   --main-transition: 0.3s;
   --main-padding-top: 100px;
@@ -63,7 +64,7 @@ ul {
 .main-title::before,
 .main-title::after {
   content: "";
-  width: 12px;
+  width: 15px;
   height: 12px;
   background-color: var(--main-color);
   position: absolute;
